@@ -143,6 +143,11 @@ body {
    
 }
 
+@media (max-width: 600px) {
+    .biography-content p {
+        padding-top: 20vw; }
+    }
+
 .biography-content a {
     color:#00abf0;
 }
@@ -165,6 +170,11 @@ body {
     padding-top: 10vw;
     margin: 2vw 0 4vw;
 }
+
+@media (max-width: 600px) {
+    .interests-content p {
+        padding-top: 20vw; }
+    }
 
 .middle {
     margin-left: auto;
