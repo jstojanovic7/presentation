@@ -127,7 +127,6 @@ body {
 .biography-content p {
     max-width: fit-content;
     padding-top: 10vw;
-    font-size: 1.1vw;
     margin: 2vw 0 4vw;
    
 }
@@ -152,7 +151,6 @@ body {
 .interests-content p {
     max-width: fit-content;
     padding-top: 10vw;
-    font-size: 1.1vw;
     margin: 2vw 0 4vw;
 }
 
