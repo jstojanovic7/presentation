@@ -27,20 +27,30 @@ body {
 }
 
 .start {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
 
+@media (max-width: 600px) {
+    .start {
+        font-size: 4vw; }
+    }
+
 .navbar a {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
     margin-left: 3.5vw;
     transition: .3s;
 }
+
+@media (max-width: 600px) {
+    .navbar a {
+        font-size: 4vw; }
+    }
 
 .navbar a:hover,
 .navbar a.active {
@@ -55,11 +65,13 @@ body {
     display: flex;
     align-items:center;
     padding: 0 10%;
+    
 }
 
 .home-content {
     max-width: 900px;
     padding-top: 3vw;
+    justify-content: flex-start;
     
 
 }
@@ -121,7 +133,7 @@ body {
 }
 
 .biography-content {
-    max-width: auto;
+    max-width:fit-content;
 }
 
 .biography-content p {
@@ -145,7 +157,7 @@ body {
 }
 
 .interests-content {
-    max-width: auto;
+    max-width: fit-content;
 }
 
 .interests-content p {
