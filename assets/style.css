@@ -18,7 +18,7 @@ body {
     top:0;
     left:0;
     width:100%;
-    padding: 20px 10%;
+    padding: 2vw 10%;
     background:yellowgreen;
     display: flex;
     justify-content: space-between;
@@ -27,18 +27,18 @@ body {
 }
 
 .start {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 3.5vw;
     transition: .3s;
 }
 
@@ -59,30 +59,36 @@ body {
 
 .home-content {
     max-width: 900px;
+    padding-top: 3vw;
+    
+
 }
 
 .home-content h1 {
-    font-size: 56px;
-    font-weight: 700;
+    font-size: 5vw;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 .home-content h3 {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 3vw;
+    font-weight: 600;
     color:yellowgreen;
 }
 
+
 .home-content p {
-    font-size: 16px;
+    font-size: 1.6vw;
     font-weight: bold;
-    margin: 20px 0 40px;
+    margin: 2vw 0 4vw;
+      
+    
 }
 
 .home-content .btn-box {
     display:flex;
-    width: 150px;
-    height: 50px;
+    width: 15vw;
+    height: 5vw;
     
 }
 
@@ -91,16 +97,16 @@ body {
     display:inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 15vw;
     height:100%;
     background: #00abf0;
     border: 2px solid #00abf0;
-    border-radius: 8px;
-    font-size: 25px;
+    border-radius: 0.8vw;
+    font-size: 2.5vw;
     color: #081b29;
     text-decoration: none;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.1vw;
 
 }
 
@@ -121,8 +127,8 @@ body {
 .biography-content p {
     max-width: fit-content;
     padding-top: 10vw;
-    font-size: 16px;
-    margin: 20px 0 40px;
+    font-size: 1.1vw;
+    margin: 2vw 0 4vw;
    
 }
 
@@ -146,8 +152,8 @@ body {
 .interests-content p {
     max-width: fit-content;
     padding-top: 10vw;
-    font-size: 16px;
-    margin: 20px 0 40px;
+    font-size: 1.1vw;
+    margin: 2vw 0 4vw;
 }
 
 .middle {
@@ -156,11 +162,11 @@ body {
 }
 
 .alignedright {
-    padding-left: 60px;
+    padding-left: 6vw;
 }
 
 .secondary {
-    padding-left: 65px;
+    padding-left: 6.5vw;
 }
 
 #sampioni {
