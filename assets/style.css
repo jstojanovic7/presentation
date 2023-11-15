@@ -70,7 +70,7 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: yellowgreen;
+    color:yellowgreen;
 }
 
 .home-content p {
@@ -105,7 +105,8 @@ body {
 }
 
 .biography {
-    height: 120vh;
+    
+    height:fit-content;
     background-size: auto;
     background-position:right;
     display: flex;
@@ -118,8 +119,10 @@ body {
 }
 
 .biography-content p {
+    padding-top: 100px;
     font-size: 16px;
     margin: 20px 0 40px;
+   
 }
 
 .biography-content a {
@@ -127,7 +130,7 @@ body {
 }
 
 .interests {
-    height: 120vh;
+    height: fit-content;
     background-size: auto;
     background-position:right;
     display: flex;
@@ -140,6 +143,12 @@ body {
 }
 
 .interests-content p {
+    padding-top: 100px;
     font-size: 16px;
     margin: 20px 0 40px;
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
 }
